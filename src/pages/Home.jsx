@@ -46,8 +46,8 @@ const Home = () => {
                             <div className="carousel-caption">
                                 <div className="p-3" style={{ maxWidth: '900px' }}>
                                     <h4 className="text-white text-uppercase fw-bold mb-4" style={{ letterSpacing: '3px' }}>WE'll Plan For Bright Futures</h4>
-                                    <h3 className="display-4 text-capitalize text-white mb-4">Education for Child</h3>
-                                    <p className="mb-5 fs-5">We provide free education to poor children, giving them hope for a better future. Every child deserves a chance to learn and grow.
+                                    <h3 className="display-4 text-capitalize text-white mb-4">Education and Free Technical Courses for Girls</h3>
+                                    <p className="mb-5 fs-5">We provide free education to poor girls, giving them hope for a better future. Every girl deserves a chance to learn and grow.
                                     </p>
                                     <div className="d-flex align-items-center justify-content-center">
                                         <Link className=" btn btnred py-3 px-5" to="donate">Join With Us</Link>
@@ -95,9 +95,6 @@ const Home = () => {
                 </div>
             </div>
             {/* <!-- Carousel End --> */}
-
-
-
 
 
             {/* <!-- About Start --> */}
@@ -198,53 +195,184 @@ const Home = () => {
                         <h5 className="text-uppercase headingred">What we do</h5>
                         <h1 className="mb-0">Bringing Hope, Dignity, and Transformation</h1>
                     </div>
-                    <div className="row g-4">
+                    {/* Row 1  */}
+
+                    <div className="row g-4 mb-5">
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="service-item">
                                 <img src='/assets/ngoImgs/img3.jpg' className="img-fluid w-100" alt="Image" />
-                                <div className="service-link">
-                                    <Link to="blog" className="h5 mb-0">Nurturing Dreams Through Education</Link>
-                                </div>
                             </div>
-                            <p className="my-4">We empower individuals through education, nurturing dreams and unlocking potential for a brighter future. Our programs inspire children and women to reach their fullest potential and break the cycle of poverty.
-                            </p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="service-item">
                                 <img src='/assets/ngoImgs/img8.jpg' className="img-fluid w-100" alt="Image" />
-                                <div className="service-link">
-                                    <Link to="blog" className="h5 mb-0"> Restoring Dignity Through Marriage Support</Link>
-                                </div>
                             </div>
-                            <p className="my-4">Every girl deserves dignity and love. We restore dignity by providing financial support and arranging marriages for underprivileged girls, ensuring they enter married life with happiness and hope for the future.
-                            </p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="service-item">
                                 <img src='/assets/ngoImgs/img5.jpg' className="img-fluid w-100" alt="Image" />
-                                <div className="service-link">
-                                    <Link to="blog" className="h5 mb-0">Extending Compassion in Times of Need</Link>
-                                </div>
                             </div>
-                            <p className="my-4">In times of hardship, we offer compassionate support and assistance. From widows to struggling families, we provide essential aid and comfort, ensuring that no one faces their challenges alone.
-                            </p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="service-item">
                                 <img src='/assets/ngoImgs/img6.jpg' className="img-fluid w-100" alt="Image" />
-                                <div className="service-link">
-                                    <Link to="blog" className="h5 mb-0">Preserving Our Planet, Preserving Our Future</Link>
-                                </div>
-                            </div>
-                            <p className="my-4">As stewards of the earth, we're committed to environmental preservation. Through tree planting, clean-up campaigns, and awareness programs, we protect our planet for future generations, fostering a sustainable and thriving world.
-                            </p>
-                        </div>
-                        <div className="col-12">
-                            <div className="d-flex align-items-center justify-content-center">
-                                <Link className=" btn btnred py-2 px-4" to="about">Read More</Link>
                             </div>
                         </div>
                     </div>
+
+                    {/* Row 2  */}
+
+                    <div className="row g-4 mb-5">
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m5.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m6.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m7.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m8.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Row 3  */}
+
+                    <div className="row g-4 mb-5">
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m9.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m10.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m11.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m12.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Row 4  */}
+
+
+                    <div className="row g-4 mb-5">
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m13.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m14.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m15.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m16.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Row 5  */}
+
+                    <div className="row g-4 mb-5">
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m17.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m18.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m19.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m20.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Row 6  */}
+
+
+                    <div className="row g-4 mb-5">
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m21.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m22.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m23.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m24.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Row 7  */}
+
+                    <div className="row g-4 mb-5">
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m25.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m26.jpeg' className="img-fluid w-100" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m27.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-6 col-xl-3">
+                            <div className="service-item">
+                                <img src='/assets/ngoImgs/m28.jpeg' className="img-fluid w-100" style={{ height: '230px' }} alt="Image" />
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
             {/* <!-- Services End --> */}
@@ -403,7 +531,7 @@ const Home = () => {
                                 </div>
                                 <div className="causes-content p-4">
                                     <h4 className="mb-3">Education Empowerment</h4>
-                                    <p className="mb-4">Empowering children through education initiatives, ensuring every child has the opportunity to learn and thrive.</p>
+                                    <p className="mb-4">Empowering Women through education initiatives, ensuring every child has the opportunity to learn and thrive.</p>
                                     <Link className=" btn btnred py-2 px-3" to="about">Read More</Link>
                                 </div>
                             </div>
@@ -484,6 +612,8 @@ const Home = () => {
                 </div>
             </div>
             {/* <!-- Causes End --> */}
+
+
             {/* <!-- Gallery Start --> */}
             <div className="container-fluid gallery py-5 px-0">
                 <div className="text-center mx-auto pb-5" style={{ maxWidth: '800px' }}>
@@ -574,6 +704,8 @@ const Home = () => {
                 </div>
             </div>
             {/* event end */}
+
+
             {/* slider */}
             {/* <!-- Carousel wrapper --> */}
             <div id="carouselExampleInterval" class="carousel slide  text-center" data-bs-ride="carousel">
@@ -838,8 +970,6 @@ const Home = () => {
             {/* <!-- Blog End --> */}
 
 
-
-
             {/* <!-- Volunteers Start --> */}
             <div className="container-fluid volunteer py-5 mt-5">
                 <div className="container py-5">
@@ -848,12 +978,12 @@ const Home = () => {
                             <div className="row g-4">
                                 <div className="col-lg-6">
                                     <div className="volunteer-img">
-                                        <img src='/assets/ngoImgs/m1.jpg' className="img-fluid w-100" alt="Image" />
+                                        <img src='/assets/ngoImgs/m31.jpeg' className="img-fluid w-100" alt="Image" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="volunteer-img">
-                                        <img src='/assets/ngoImgs/m4.jpg' className="img-fluid w-100" alt="Image" />
+                                        <img src='/assets/ngoImgs/m4.jpeg' className="img-fluid w-100" alt="Image" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
