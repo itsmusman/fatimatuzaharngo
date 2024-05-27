@@ -89,7 +89,7 @@ const Donate = () => {
                         <div className="col-xl-5">
                             <h1 className="mb-4">President Message</h1>
                             <p className="fs-5 mb-4">We have organized and registered (NGOs) Fatima-Tu-Zahra Women Welfare Society Pindi Bhattian. For the welfare of women of this town ; We will struggle for betterment of women in the field of Education "Health,Skill" Poverty and entertainment. We will support orphans Child poor women... Kindly Pray for Us for this Pious Service. We hope for yours Support.Thanks</p>
-                            <h5 className="text-uppercase headingred">D.r Aqsa Zmeen</h5>
+                            <h5 className="text-uppercase headingred">Dr.Aqsa zamaan</h5>
                         </div>
                         <div className="tab-className p-2">
                             <div className="tab-content">
