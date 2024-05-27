@@ -142,38 +142,22 @@ const About = () => {
                             <div className="row g-4">
                                 <div className="col-lg-6">
                                     <div className="volunteer-img">
-                                        <img src='../assets/ngoImgs/m4.jpg' className="img-fluid w-100" alt="Image" />
-                                        <div className="volunteer-title">
-                                            <h5 className="mb-2 text-white">Michel Brown</h5>
-                                            <p className="mb-0 text-white">Communicator</p>
-                                        </div>
+                                        <img src='../assets/ngoImgs/m4.jpeg' className="img-fluid w-100" alt="Image" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="volunteer-img">
-                                        <img src='../assets/ngoImgs/m1.jpg' className="img-fluid w-100" alt="Image" />
-                                        <div className="volunteer-title">
-                                            <h5 className="mb-2 text-white">Michel Brown</h5>
-                                            <p className="mb-0 text-white">Communicator</p>
-                                        </div>
+                                        <img src='../assets/ngoImgs/m31.jpeg' className="img-fluid w-100" alt="Image" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="volunteer-img">
                                         <img src='../assets/ngoImgs/m2.jpg' className="img-fluid w-100" alt="Image" />
-                                        <div className="volunteer-title">
-                                            <h5 className="mb-2 text-white">Michel Brown</h5>
-                                            <p className="mb-0 text-white">Communicator</p>
-                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="volunteer-img">
                                         <img src='../assets/ngoImgs/m3.jpg' className="img-fluid w-100" alt="Image" />
-                                        <div className="volunteer-title">
-                                            <h5 className="mb-2 text-white">Michel Brown</h5>
-                                            <p className="mb-0 text-white">Communicator</p>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
