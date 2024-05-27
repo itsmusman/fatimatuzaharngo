@@ -9,8 +9,7 @@ const Contact = () => {
                     <h3 className="text-white display-3 mb-4">Contact Us</h3>
                     <p className="fs-5 text-white mb-4">Get in touch with us via email, phone, or visit our office for any questions, support, or assistance.</p>
                     <ol className="breadcrumb justify-content-center mb-0">
-                        <li className="breadcrumb-item"><Link href="/" className="headingred">Home</Link></li>
-                        <li className="breadcrumb-item"><Link href="/" className="headingred">Pages</Link></li>
+                        <li className="breadcrumb-item"><Link to="/" className="headingred">Home</Link></li>
                         <li className="breadcrumb-item active text-white">Contact</li>
                     </ol>
                 </div>

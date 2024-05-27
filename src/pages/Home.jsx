@@ -423,7 +423,7 @@ const Home = () => {
                                     <h4 className="text-white mb-4">Make a Difference</h4>
                                     <p className="text-white mb-4">Join us in our mission to make a meaningful impact. Your generosity saves lives and brings hope to many.</p>
                                     <div className="donation-btn d-flex align-items-center justify-content-start">
-                                        <Link className=" btn btnred py-2 px-4" to="/">Donate !</Link>
+                                        <Link className=" btn btnred py-2 px-4" to="/donate">Donate !</Link>
                                     </div>
                                 </div>
                             </div>
@@ -760,7 +760,7 @@ const Home = () => {
                                             <p class="card-text">
                                                 Your well-being matters to us. Join us at our healthcare awareness camp to learn how to take better care of yourself and your family. Together, we can promote a healthier community.
                                             </p>
-                                            <Link to="program" data-mdb-ripple-init class="btn btnred">Read more</Link>
+                                            <Link to="/program" data-mdb-ripple-init class="btn btnred">Read more</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -800,7 +800,7 @@ const Home = () => {
                                             <p class="card-text">
                                                 Every woman deserves a chance to thrive. Join us for a seminar on women's empowerment and gender equality. Let's create a world where every woman's voice is heard and valued.
                                             </p>
-                                            <Link to="program" data-mdb-ripple-init class="btn btnred">Read more</Link>
+                                            <Link to="/program" data-mdb-ripple-init class="btn btnred">Read more</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -817,7 +817,7 @@ const Home = () => {
                                             <p class="card-text">
                                                 Our planet needs our help. Join us for a symposium on environmental conservation and discover how you can make a positive impact.
                                             </p>
-                                            <Link to="program" data-mdb-ripple-init class="btn btnred">Read more</Link>
+                                            <Link to="/program" data-mdb-ripple-init class="btn btnred">Read more</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -875,7 +875,7 @@ const Home = () => {
                                             <p class="card-text">
                                                 Your well-being matters to us. Join us at our healthcare awareness camp to learn how to take better care of yourself and your family. Together, we can promote a healthier community.
                                             </p>
-                                            <Link to="program" data-mdb-ripple-init class="btn btnred">Read more</Link>
+                                            <Link to="/program" data-mdb-ripple-init class="btn btnred">Read more</Link>
                                         </div>
                                     </div>
                                 </div>

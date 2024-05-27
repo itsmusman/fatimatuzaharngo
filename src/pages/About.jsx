@@ -38,8 +38,7 @@ const About = () => {
                     <h3 class="text-white display-3 mb-4">About Us</h3>
                     <p class="fs-5 text-white mb-4">Learn about our mission, vision, and values. Discover our journey and the team behind our efforts to empower women and uplift communities.</p>
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="/" className="headingred">Home</a></li>
-                        <li class="breadcrumb-item"><a href="/" className="headingred">Pages</a></li>
+                        <li className="breadcrumb-item"><Link to="/" className="headingred">Home</Link></li>
                         <li class="breadcrumb-item active text-white">About Us</li>
                     </ol>
                 </div>
@@ -87,9 +86,6 @@ const About = () => {
                                                         <h5 className="text-uppercase mb-3">Supporting Women and Families</h5>
                                                         <p className="mb-4">Behind every smile we bring, there's a story of resilience, of strength, and of hope. We stand by women and families in their darkest hours, offering them not just material support but also the warmth of human connection. Whether it's arranging marriages for underprivileged girls or providing essential supplies to widows, our love knows no bounds.
                                                         </p>
-                                                        <div className="d-flex align-items-center justify-content-start">
-                                                            <Link className=" btn btnred py-2 px-4" to="about">Read More</Link>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,9 +99,6 @@ const About = () => {
                                                         <h5 className="text-uppercase mb-3">Empowering Communities Through Education</h5>
                                                         <p className="mb-4">Education is not just about books and classrooms; it's about unlocking potential, igniting dreams, and breaking barriers. Through our free schooling programs and vocational training opportunities, we are not only shaping minds but also empowering souls. We believe that education is the key to unlocking a brighter future, not just for individuals, but for entire communities.
                                                         </p>
-                                                        <div className="d-flex align-items-center justify-content-start">
-                                                            <Link className=" btn btnred py-2 px-4" to="about">Read More</Link>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -119,9 +112,6 @@ const About = () => {
                                                         <h5 className="text-uppercase mb-3">Building Sustainable Communities</h5>
                                                         <p className="mb-4">Together, we are architects of change, builders of a better world. We envision communities where every voice is heard, every need is met, and every dream is within reach. Through advocacy, collaboration, and sheer determination, we are laying the foundation for a future where sustainability is not just a goal but a way of life.
                                                         </p>
-                                                        <div className="d-flex align-items-center justify-content-start">
-                                                            <Link className=" btn btnred py-2 px-4" to="about">Read More</Link>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -172,7 +162,7 @@ const About = () => {
                             <p className="text-dark"><i className=" fa fa-check headingred me-2"></i> Its an opportunity to help poor Environments.</p>
                             <p className="text-dark"><i className=" fa fa-check headingred me-2"></i> No goal requirements.</p>
                             <p className="text-dark mb-5"><i className=" fa fa-check headingred me-2"></i> Joining is tottaly free. We dont need any money from you.</p>
-                            <Link className=" btn btnred py-2 px-4" to="donate">Join With Us</Link>
+                            <Link className=" btn btnred py-2 px-4" to="/donate">Join With Us</Link>
                         </div>
                     </div>
                 </div>

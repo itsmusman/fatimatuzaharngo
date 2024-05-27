@@ -38,8 +38,7 @@ const Donate = () => {
                     <h3 class="text-white display-3 mb-4">Donate now</h3>
                     <p class="fs-5 text-white mb-4">Help today because tomorrow you may be the one who needs more helping!</p>
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="index.html" className="headingred">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#" className="headingred">Pages</a></li>
+                        <li className="breadcrumb-item"><Link to="/" className="headingred">Home</Link></li>
                         <li class="breadcrumb-item active text-white">Donate Now</li>
                     </ol>
                 </div>
@@ -49,6 +48,10 @@ const Donate = () => {
                 <div className="container py-5">
                     <div className="text-center mx-auto pb-5" style={{ maxWidth: '800px' }}>
                         <h5 className="text-uppercase headingred">Donate Now</h5>
+                        <div className='bg-success'>
+                            <h1 className='text-primary'>Total Income Last Year: <h1>RS: 788940/-</h1></h1>
+                            <h1 className='text-primary'>Total Overhead Expenses Last Year: <h1>RS: 833569/-</h1></h1>
+                        </div>
                         <h1 className="mb-0">Donate Now to Support Our Mission
                         </h1>
                         <p class="fs-5 mb-4">Join hands with us to make a difference in the lives of women and communities in need. Your donations fuel our efforts to empower women, provide education, and support the underprivileged.</p>
