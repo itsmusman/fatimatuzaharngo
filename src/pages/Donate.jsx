@@ -74,6 +74,13 @@ const Donate = () => {
                                 <h5 className="mb-4">BANK ACCOUNT NAME: FATIMA TU ZAHARA CENTER</h5>
                                 <h5 className="mb-4">Your gifts ensure a bright future for these women and children.</h5>
                             </div>
+
+                            <div className="tab-content">
+                                <h5 className="text-uppercase headingred">donate your charity and gifts to Fatima tu Zahra Women Welfare.</h5>
+                                <h5 className="mb-4">Easypaisa / Jazzcash</h5>
+                                <h5 className="mb-4">Account Number : 0300 0430773</h5>
+                                <h5 className="mb-4">Your gifts ensure a bright future for these women and children.</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,6 +98,7 @@ const Donate = () => {
                         </div>
                         <div className="col-xl-5">
                             <h1 className="mb-4">President Message</h1>
+                            <img src='/assets/ngoImgs/DrAqsa.jpeg' className='img-fluid' width='220px' height='80px' />
                             <p className="fs-5 mb-4">We have organized and registered (NGOs) Fatima-Tu-Zahra Women Welfare Society Pindi Bhattian. For the welfare of women of this town ; We will struggle for betterment of women in the field of Education "Health,Skill" Poverty and entertainment. We will support orphans Child poor women... Kindly Pray for Us for this Pious Service. We hope for yours Support.Thanks</p>
                             <h5 className="text-uppercase headingred">Dr.Aqsa zamaan</h5>
                         </div>
